@@ -1,7 +1,12 @@
 import os
 import time
+import sys
 
-while True:
-    comnd=input("enter your command:")
-    os.system(comnd)
-    time.sleep(2)
+try:
+    while True:
+        comnd=input("enter your command:")
+        os.system(comnd)
+        time.sleep(2)
+expect:
+    KeyboardInterrupt()
+    sys.exit()

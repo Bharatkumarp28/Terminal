@@ -1,4 +1,4 @@
-# pbk01
+# Terminal
 Simple code to make your own command prompt in windows or Terminal in Linux OS.
 
 Note : Compulsory run this code from the command prompt/Terminal to see the output clearly. 
